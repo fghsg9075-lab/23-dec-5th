@@ -76,7 +76,7 @@ const App: React.FC = () => {
         marqueeLines: ["Welcome to NST AI", "Learn Smart", "Contact Admin for Credits"], 
         liveMessage1: '', 
         liveMessage2: '', 
-        wheelRewards: [0, 1, 2, 5],
+        wheelRewards: [10, 15, 20, 50,1000],
         chatCost: 1,
         dailyReward: 3,
         signupBonus: 2,
