@@ -16,7 +16,7 @@ export const SpinWheel: React.FC<Props> = ({ user, onUpdateUser, settings }) => 
   // --- CONFIG ---
   const rewardValues = settings?.wheelRewards && settings.wheelRewards.length > 0 
       ? settings.wheelRewards 
-      : [0, 1, 2, 5, 10]; 
+      : [10, 50, 20, 50, 100]; 
   
   const cost = settings?.gameCost || 0;
 
