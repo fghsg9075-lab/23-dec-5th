@@ -93,10 +93,10 @@ const App: React.FC = () => {
         paymentInstructions: '',
         packages: [],
         subscriptionPlans: [
-            { id: 'weekly', name: 'Weekly', duration: '7 days', basicPrice: 100, basicOriginalPrice: 199, ultraPrice: 150, ultraOriginalPrice: 299, features: ['Premium Content'], popular: false },
-            { id: 'monthly', name: 'Monthly', duration: '30 days', basicPrice: 299, basicOriginalPrice: 499, ultraPrice: 449, ultraOriginalPrice: 749, features: ['Everything in Weekly', 'Live Chat'], popular: true },
-            { id: 'yearly', name: 'Yearly', duration: '365 days', basicPrice: 999, basicOriginalPrice: 2999, ultraPrice: 1499, ultraOriginalPrice: 4499, features: ['Priority Support'], popular: false },
-            { id: 'lifetime', name: 'Lifetime', duration: 'Forever', basicPrice: 4999, basicOriginalPrice: 9999, ultraPrice: 7499, ultraOriginalPrice: 14999, features: ['VIP Status'], popular: true }
+            { id: 'weekly', name: 'Weekly', duration: '7 days', basicPrice: 50, basicOriginalPrice: 199, ultraPrice: 99, ultraOriginalPrice: 299, features: ['Premium Content'], popular: false },
+            { id: 'monthly', name: 'Monthly', duration: '30 days', basicPrice: 149, basicOriginalPrice: 799, ultraPrice: 199, ultraOriginalPrice: 1199, features: ['Everything in Weekly', 'Live Chat'], popular: true },
+            { id: 'yearly', name: 'Yearly', duration: '365 days', basicPrice: 999, basicOriginalPrice: 7999, ultraPrice: 1499, ultraOriginalPrice: 11999, features: ['Priority Support'], popular: false },
+            { id: 'lifetime', name: 'Lifetime', duration: 'Forever', basicPrice: 4999, basicOriginalPrice: 9999, ultraPrice: 9999, ultraOriginalPrice: 59999, features: ['VIP Status'], popular: true }
         ],
         startupAd: {
             enabled: true,
